@@ -1,0 +1,65 @@
+
+
+.menu{
+    background-color: rgb(234, 159, 47);
+}
+
+.form-outline i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+
+.logo {
+    background-color: #e56801 !important;
+    border-radius: 0% 50% 50% 0%;
+    height: 100%;
+    width: 10%;
+}
+
+.banner{
+    background-image: url("../assets/img/FondoTemporal.jpg");
+    padding: 0%;
+    position:relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.banner::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.banner2{
+    background-image: url("../assets/img/banner2.webp");
+    padding: 25%;
+    position:relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.banner2::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.fondo{
+    background-color: #EE7D0C;
+    
+}
+
+
